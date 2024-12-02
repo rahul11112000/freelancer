@@ -14,7 +14,6 @@ package com.example.freelancer.controller;
  
      @GetMapping("/")
      public String hello(Authentication authentication) {
-        System.out.println("first code push");
          return "Hello, !!";
      }
  
