@@ -16,7 +16,7 @@ public class Projects {
     private int clientId;
     private String title;
     private String Duration;
-    private String budger;
+    private String budget;
     private String description;
     private String skills;
     
