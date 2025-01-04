@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface ProjectRepo extends CrudRepository<Projects,Integer>{
     List<Projects> findByClientId(int clientId);
+
+    List<Projects> findById(int id);
 }
